@@ -20,7 +20,7 @@ This project adheres to the Contributor Covenant
 By participating, you are expected to uphold this code. Please report unacceptable
 behavior to [coc@electronjs.org](mailto:coc@electronjs.org).
 
-## Installation
+## 설치
 
 To install prebuilt Electron binaries, use [`npm`](https://docs.npmjs.com/).
 The preferred method is to install Electron as a development dependency in your
@@ -34,7 +34,7 @@ For more installation options and troubleshooting tips, see
 [installation](docs/tutorial/installation.md). For info on how to manage Electron versions in your apps, see
 [Electron versioning](docs/tutorial/electron-versioning.md).
 
-## Platform support
+## 지원하는 플랫폼
 
 Each Electron release provides binaries for macOS, Windows, and Linux.
 
@@ -45,7 +45,7 @@ Each Electron release provides binaries for macOS, Windows, and Linux.
   * Fedora 24 and newer
   * Debian 8 and newer
 
-## Quick start & Electron Fiddle
+## 빠른시작과 Electron 피들
 
 Use [`Electron Fiddle`](https://github.com/electron/fiddle)
 to build, run, and package small Electron experiments, to see code examples for all of Electron's APIs, and
@@ -63,14 +63,14 @@ npm install
 npm start
 ```
 
-## Resources for learning Electron
+## Electron을 배우기 위한 자원
 
 * [electronjs.org/docs](https://electronjs.org/docs) - All of Electron's documentation
 * [electron/fiddle](https://github.com/electron/fiddle) - A tool to build, run, and package small Electron experiments
 * [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - A very basic starter Electron app
 * [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - Sample starter apps created by the community
 
-## Programmatic usage
+## 프로그램방식 사용
 
 Most people use Electron from the command line, but if you require `electron` inside
 your **Node app** (not your Electron app) it will return the file path to the
@@ -87,28 +87,28 @@ console.log(electron)
 const child = proc.spawn(electron)
 ```
 
-### Mirrors
+### 미러들
 
 * [China](https://npmmirror.com/mirrors/electron/)
 
 See the [Advanced Installation Instructions](https://www.electronjs.org/docs/latest/tutorial/installation#mirror) to learn how to use a custom mirror.
 
-## Documentation translations
+## 문서화 번역
 
 We crowdsource translations for our documentation via [Crowdin](https://crowdin.com/project/electron).
 We currently accept translations for Chinese (Simplified), French, German, Japanese, Portuguese,
 Russian, and Spanish.
 
-## Contributing
+## 기여하기
 
 If you are interested in reporting/fixing issues and contributing directly to the code base, please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
 
-## Community
+## 커뮤니티
 
 Info on reporting bugs, getting help, finding third-party tools and sample apps,
 and more can be found on the [Community page](https://www.electronjs.org/community).
 
-## License
+## 라이센스
 
 [MIT](https://github.com/electron/electron/blob/main/LICENSE)
 
