@@ -1,4 +1,4 @@
-# Official Guides
+# 공식 가이드
 
 Please make sure that you use the documents that match your Electron version.
 The version number should be a part of the page URL. If it's not, you are
@@ -9,7 +9,7 @@ versions of the documentation, you can
 on GitHub by opening the "Switch branches/tags" dropdown and selecting the tag
 that matches your version.
 
-## FAQ
+## 자주 묻는 질문 답변
 
 There are questions that are asked quite often. Check this out before creating
 an issue:
@@ -18,13 +18,13 @@ an issue:
 
 ## Guides and Tutorials
 
-### Getting started
+### 시작하기
 
 * [Introduction](tutorial/introduction.md)
 * [Quick Start](tutorial/quick-start.md)
 * [Process Model](tutorial/process-model.md)
 
-### Learning the basics
+### 기본 배우기
 
 * Adding Features to Your App
   * [Notifications](tutorial/notifications.md)
@@ -47,7 +47,7 @@ an issue:
   * [electron-react-boilerplate](tutorial/boilerplates-and-clis.md#electron-react-boilerplate)
   * [Other Tools and Boilerplates](tutorial/boilerplates-and-clis.md#other-tools-and-boilerplates)
 
-### Advanced steps
+### 고급 단계들
 
 * Application Architecture
   * [Using Native Node.js Modules](tutorial/using-native-node-modules.md)
@@ -72,7 +72,7 @@ an issue:
 * [Updates](tutorial/updates.md)
 * [Getting Support](tutorial/support.md)
 
-## Detailed Tutorials
+## 상세한 Tutorials
 
 These individual tutorials expand on topics discussed in the guide above.
 
@@ -88,7 +88,7 @@ These individual tutorials expand on topics discussed in the guide above.
 
 * [Glossary of Terms](glossary.md)
 
-## API References
+## API 참조
 
 * [Synopsis](api/synopsis.md)
 * [Process Object](api/process.md)
@@ -103,7 +103,7 @@ These individual tutorials expand on topics discussed in the guide above.
 * [`<webview>` Tag](api/webview-tag.md)
 * [`window.open` Function](api/window-open.md)
 
-### Modules for the Main Process:
+### 기본 프로세스를 위한 모듈들:
 
 * [app](api/app.md)
 * [autoUpdater](api/auto-updater.md)
