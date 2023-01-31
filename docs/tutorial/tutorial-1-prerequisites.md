@@ -9,12 +9,12 @@ hide_title: false
 
 This is **part 1** of the Electron tutorial.
 
-1. **[Prerequisites][prerequisites]**
-1. [Building your First App][building your first app]
-1. [Using Preload Scripts][preload]
-1. [Adding Features][features]
-1. [Packaging Your Application][packaging]
-1. [Publishing and Updating][updates]
+1. [전제조건][prerequisites]
+1. [당신의 첫번째 앱 만들기][building your first app]
+1. **[Using Preload Scripts][preload]**
+1. [기능 추가하기][features]
+1. [당신의 앱 패키징하기][packaging]
+1. [배포와 업데이트][updates]
 
 :::
 
