@@ -18,7 +18,7 @@ This is **part 6** of the Electron tutorial.
 
 :::
 
-## Learning goals
+## 학습 목표
 
 If you've been following along, this is the last step of the tutorial! In this part,
 you will publish your app to GitHub releases and integrate automatic updates
