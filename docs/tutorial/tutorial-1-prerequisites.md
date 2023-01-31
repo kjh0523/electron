@@ -1,11 +1,11 @@
 ---
-title: 'Prerequisites'
-description: 'This guide will step you through the process of creating a barebones Hello World app in Electron, similar to electron/electron-quick-start.'
+title: '전제조건'
+설명: 'This guide will step you through the process of creating a barebones Hello World app in Electron, similar to electron/electron-quick-start.'
 slug: tutorial-prerequisites
 hide_title: false
 ---
 
-:::info Follow along the tutorial
+:::정보 튜토리얼 따라하기
 
 This is **part 1** of the Electron tutorial.
 
@@ -26,7 +26,7 @@ work on Windows, macOS, and Linux with a single JavaScript codebase.
 This tutorial will guide you through the process of developing a desktop
 application with Electron and distributing it to end users.
 
-## Goals
+## 목표
 
 This tutorial starts by guiding you through the process of piecing together
 a minimal Electron application from scratch, then teaches you how to
@@ -35,7 +35,7 @@ package and distribute it to users using Electron Forge.
 If you prefer to get a project started with a single-command boilerplate, we recommend you start
 with Electron Forge's [`create-electron-app`](https://www.electronforge.io/) command.
 
-## Assumptions
+## 가정/Assumptions
 
 Electron is a native wrapper layer for web apps and is run in a Node.js environment.
 Therefore, this tutorial assumes you are generally familiar with Node and
@@ -45,14 +45,14 @@ continuing, we recommend the following resources:
 - [Getting started with the Web (MDN Web Docs)][mdn-guide]
 - [Introduction to Node.js][node-guide]
 
-## Required tools
+## 필요한 도구들
 
-### Code editor
+### 코드 편집기
 
 You will need a text editor to write your code. We recommend using [Visual Studio Code][],
 although you can choose whichever one you prefer.
 
-### Command line
+### 명령어 줄
 
 Throughout the tutorial, we will ask you to use various command-line interfaces (CLIs). You can
 type these commands into your system's default terminal:
@@ -63,7 +63,7 @@ type these commands into your system's default terminal:
 
 Most code editors also come with an integrated terminal, which you can also use.
 
-### Git and GitHub
+### Git GitHub
 
 Git is a commonly-used version control system for source code, and GitHub is a collaborative
 development platform built on top of it. Although neither is strictly necessary to building
@@ -86,7 +86,7 @@ it installed.
 
 :::
 
-### Node.js and npm
+### Node.js와 npm
 
 To begin developing an Electron app, you need to install the [Node.js][node-download]
 runtime and its bundled npm package manager onto your system. We recommend that you
@@ -142,9 +142,9 @@ the list of versions in the [electron/releases][] repository.
 
 <!-- Tutorial links -->
 
-[prerequisites]: tutorial-1-prerequisites.md
-[building your first app]: tutorial-2-first-app.md
+[전제조건]: tutorial-1-prerequisites.md
+[당신의 첫번째 앱 만들기]: tutorial-2-first-app.md
 [preload]: tutorial-3-preload.md
-[features]: tutorial-4-adding-features.md
-[packaging]: tutorial-5-packaging.md
-[updates]: tutorial-6-publishing-updating.md
+[기능들]: tutorial-4-adding-features.md
+[패키징]: tutorial-5-packaging.md
+[업이트]: tutorial-6-publishing-updating.md
