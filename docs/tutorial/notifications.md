@@ -1,6 +1,6 @@
-# Notifications
+# 알림
 
-## Overview
+## 개요
 
 All three operating systems provide means for applications to send
 notifications to the user. The technique of showing notifications is different
@@ -14,7 +14,7 @@ to display it.
 To show notifications in the Main process, you need to use the
 [Notification](../api/notification.md) module.
 
-## Example
+## 예제
 
 ### Show notifications in the Renderer process
 
@@ -65,12 +65,12 @@ After launching the Electron application, you should see the system notification
 
 ![Notification in the Main process](../images/notification-main.png)
 
-## Additional information
+## 추가 정보
 
 While code and user experience across operating systems are similar, there
 are subtle differences.
 
-### Windows
+### 윈도우즈
 
 * On Windows 10, a shortcut to your app with an
 [Application User Model ID][app-user-model-id] must be installed to the
@@ -87,7 +87,7 @@ Electron will detect that Squirrel was used and will automatically call
 `app.setAppUserModelId()` with the correct value. During development, you may have
 to call [`app.setAppUserModelId()`][set-app-user-model-id] yourself.
 
-#### Advanced Notifications
+#### 고급 알림
 
 Later versions of Windows allow for advanced notifications, with custom templates,
 images, and other flexible elements. To send those notifications (from either the
@@ -109,7 +109,7 @@ userland module [electron-notification-state](https://github.com/felixrieseberg/
 This allows you to determine ahead of time whether or not Windows will
 silently throw the notification away.
 
-### macOS
+### 맥오에스
 
 Notifications are straight-forward on macOS, but you should be aware of
 [Apple's Human Interface guidelines regarding notifications][apple-notification-guidelines].
@@ -128,7 +128,7 @@ This will allow you to detect ahead of time whether or not the notification will
 
 [electron-notification-state]: https://github.com/felixrieseberg/electron-notification-state
 
-### Linux
+### 
 
 Notifications are sent using `libnotify` which can show notifications on any
 desktop environment that follows [Desktop Notifications
