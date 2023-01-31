@@ -9,7 +9,7 @@ hide_title: false
 
 This is **part 3** of the Electron tutorial.
 
-1. [Prerequisites][prerequisites]
+1. [전제조건][prerequisites]
 1. [Building your First App][building your first app]
 1. **[Using Preload Scripts][preload]**
 1. [Adding Features][features]
