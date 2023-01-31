@@ -1,4 +1,4 @@
-# Accessibility
+# 접근성
 
 Accessibility concerns in Electron applications are similar to those of
 websites because they're both ultimately HTML.
