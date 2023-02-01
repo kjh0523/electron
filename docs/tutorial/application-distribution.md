@@ -76,7 +76,7 @@ electron/resources/
 You can find more details on how to use `asar` in the
 [`electron/asar` repository][asar].
 
-### Rebranding with downloaded binaries
+### 다운로드한 바이너리로 리브랜딩
 
 After bundling your app into Electron, you will want to rebrand Electron
 before distributing it to users.
