@@ -1,4 +1,4 @@
-# Application Debugging
+# 어플리케이션 디버깅
 
 Whenever your Electron application is not behaving the way you wanted it to,
 an array of debugging tools might help you find coding errors, performance
