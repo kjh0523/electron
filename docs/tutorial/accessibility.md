@@ -3,7 +3,7 @@
 Accessibility concerns in Electron applications are similar to those of
 websites because they're both ultimately HTML.
 
-## Manually enabling accessibility features
+## 접근성 기능을 수동으로 활성화
 
 Electron applications will automatically enable accessibility features in the
 presence of assistive technology (e.g. [JAWS](https://www.freedomscientific.com/products/software/jaws/)
@@ -13,7 +13,7 @@ See Chrome's [accessibility documentation][a11y-docs] for more details.
 You can also manually toggle these features either within your Electron application
 or by setting flags in third-party native software.
 
-### Using Electron's API
+### Electron API 사용하기
 
 By using the [`app.setAccessibilitySupportEnabled(enabled)`][setAccessibilitySupportEnabled]
 API, you can manually expose Chrome's accessibility tree to users in the application preferences.
