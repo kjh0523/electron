@@ -5,7 +5,7 @@ slug: security
 hide_title: true
 toc_max_heading_level: 3
 ---
-# Security
+# 보안
 
 :::info Reporting security issues
 For information on how to properly disclose an Electron vulnerability,
@@ -16,7 +16,7 @@ Chromium releases. For more information, see the
 [Electron Release Timelines](../tutorial/electron-timelines.md) document.
 :::
 
-## Preface
+## 머리말
 
 As web developers, we usually enjoy the strong security net of the browser —
 the risks associated with the code we write are relatively small. Our websites
@@ -38,7 +38,7 @@ display primarily local content (or trusted, secure remote content without Node
 integration) — if your application executes code from an online source, it is
 your responsibility to ensure that the code is not malicious.
 
-## General guidelines
+## 일반 가이드 인
 
 ### Security is everyone's responsibility
 
@@ -129,7 +129,7 @@ secure protocol like `HTTPS`. In other words, do not use insecure protocols
 like `HTTP`. Similarly, we recommend the use of `WSS` over `WS`, `FTPS` over
 `FTP`, and so on.
 
-#### Why?
+#### 왜?
 
 `HTTPS` has two main benefits:
 
@@ -139,7 +139,7 @@ like `HTTP`. Similarly, we recommend the use of `WSS` over `WS`, `FTPS` over
    more difficult to eavesdrop on the information sent between your app and
    the host.
 
-#### How?
+#### 어떻게?
 
 ```js title='main.js (Main Process)'
 // Bad
@@ -176,7 +176,7 @@ After this, you can grant additional permissions for specific hosts. For example
 if you are opening a BrowserWindow pointed at `https://example.com/`, you can
 give that website exactly the abilities it needs, but no more.
 
-#### Why?
+#### ?
 
 A cross-site-scripting (XSS) attack is more dangerous if an attacker can jump
 out of the renderer process and execute code on the user's computer.
@@ -185,7 +185,7 @@ power is usually limited to messing with the website that they are executed on.
 Disabling Node.js integration helps prevent an XSS from being escalated into a
 so-called "Remote Code Execution" (RCE) attack.
 
-#### How?
+#### 어떻게?
 
 ```js title='main.js (Main Process)'
 // Bad
@@ -268,13 +268,13 @@ like notifications).
 The API is based on the [Chromium permissions API](https://developer.chrome.com/extensions/permissions)
 and implements the same types of permissions.
 
-#### Why?
+#### 왜?
 
 By default, Electron will automatically approve all permission requests unless
 the developer has manually configured a custom handler. While a solid default,
 security-conscious developers might want to assume the very opposite.
 
-#### How?
+#### 어떻게?
 
 ```js title='main.js (Main Process)'
 const { session } = require('electron')
@@ -311,13 +311,13 @@ security features.
 
 Do not disable `webSecurity` in production applications.
 
-#### Why?
+#### 왜?
 
 Disabling `webSecurity` will disable the same-origin policy and set
 `allowRunningInsecureContent` property to `true`. In other words, it allows
 the execution of insecure code from different domains.
 
-#### How?
+#### 어떻게?
 
 ```js title='main.js (Main Process)'
 // Bad
@@ -347,7 +347,7 @@ A Content Security Policy (CSP) is an additional layer of protection against
 cross-site-scripting attacks and data injection attacks. We recommend that they
 be enabled by any website you load inside Electron.
 
-#### Why?
+#### 왜?
 
 CSP allows the server serving content to restrict and control the resources
 Electron can load for that given web page. `https://example.com` should
@@ -355,7 +355,7 @@ be allowed to load scripts from the origins you defined while scripts from
 `https://evil.attacker.com` should not be allowed to run. Defining a CSP is an
 easy way to improve your application's security.
 
-#### How?
+#### ?
 
 The following CSP will allow Electron to execute scripts from the current
 website and from `apis.example.com`.
@@ -541,7 +541,7 @@ It is a good idea to control the creation of new [`<webview>`][webview-tag] tags
 from the main process and to verify that their webPreferences do not disable
 security features.
 
-#### Why?
+#### 왜?
 
 Since `<webview>` live in the DOM, they can be created by a script running on your
 website even if Node.js integration is otherwise disabled.
@@ -551,7 +551,7 @@ a renderer process. In most cases, developers do not need to disable any of
 those features - and you should therefore not allow different configurations
 for newly created [`<webview>`][webview-tag] tags.
 
-#### How?
+#### 어떻게?
 
 Before a [`<webview>`][webview-tag] tag is attached, Electron will fire the
 `will-attach-webview` event on the hosting `webContents`. Use the event to
@@ -583,7 +583,7 @@ If your app has no need to navigate or only needs to navigate to known pages,
 it is a good idea to limit navigation outright to that known scope, disallowing
 any other kinds of navigation.
 
-#### Why?
+#### 왜?
 
 Navigation is a common attack vector. If an attacker can convince your app to
 navigate away from its current page, they can possibly force your app to open
@@ -596,7 +596,7 @@ A common attack pattern is that the attacker convinces your app's users to
 interact with the app in such a way that it navigates to one of the attacker's
 pages. This is usually done via links, plugins, or other user-generated content.
 
-#### How?
+#### 어떻게?
 
 If your app has no need for navigation, you can call `event.preventDefault()`
 in a [`will-navigate`][will-navigate] handler. If you know which pages your app
@@ -626,7 +626,7 @@ app.on('web-contents-created', (event, contents) => {
 If you have a known set of windows, it's a good idea to limit the creation of
 additional windows in your app.
 
-#### Why?
+#### 왜?
 
 Much like navigation, the creation of new `webContents` is a common attack
 vector. Attackers attempt to convince your app to create new windows, frames,
@@ -639,7 +639,7 @@ security at no cost. This is commonly the case for apps that open one
 `BrowserWindow` and do not need to open an arbitrary number of additional
 windows at runtime.
 
-#### How?
+#### 어떻게?
 
 [`webContents`][web-contents] will delegate to its [window open
 handler][window-open-handler] before creating new windows. The handler will
@@ -675,13 +675,13 @@ protocol URI with the desktop's native utilities. On macOS, for instance, this
 function is similar to the `open` terminal command utility and will open the
 specific application based on the URI and filetype association.
 
-#### Why?
+#### 왜?
 
 Improper use of [`openExternal`][open-external] can be leveraged to compromise
 the user's host. When openExternal is used with untrusted content, it can be
 leveraged to execute arbitrary commands.
 
-#### How?
+#### 어떻게?
 
 ```js title='main.js (Main Process)'
 //  Bad
@@ -701,7 +701,7 @@ You should strive for always using the latest available version of Electron.
 Whenever a new major version is released, you should attempt to update your
 app as quickly as possible.
 
-#### Why?
+#### 왜?
 
 An application built with an older version of Electron, Chromium, and Node.js
 is an easier target than an application that is using more recent versions of
@@ -717,7 +717,7 @@ to fix issues before publishing them. Your application will be more secure if
 it is running a recent version of Electron (and thus, Chromium and Node.js) for
 which potential security issues are not as widely known.
 
-#### How?
+#### 어떻게?
 
 Migrate your app one major version at a time, while referring to Electron's
 [Breaking Changes][breaking-changes] document to see if any code needs to
@@ -728,7 +728,7 @@ be updated.
 You should always validate incoming IPC messages `sender` property to ensure you
 aren't performing actions or sending information to untrusted renderers.
 
-#### Why?
+#### 왜?
 
 All Web Frames can in theory send IPC messages to the main process, including
 iframes and child windows in some scenarios.  If you have an IPC message that returns
@@ -737,7 +737,7 @@ can't natively, you should ensure you aren't listening to third party web frames
 
 You should be validating the `sender` of **all** IPC messages by default.
 
-#### How?
+#### 어떻게?
 
 ```js title='main.js (Main Process)'
 // Bad
