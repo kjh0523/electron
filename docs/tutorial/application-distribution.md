@@ -8,7 +8,7 @@ hide_title: false
 To distribute your app with Electron, you need to package and rebrand it. To do this, you
 can either use specialized tooling or manual approaches.
 
-## With tooling
+## 도구사용
 
 There are a couple tools out there that exist to package and distribute your Electron app.
 We recommend using [Electron Forge](./forge-overview.md). You can check out
