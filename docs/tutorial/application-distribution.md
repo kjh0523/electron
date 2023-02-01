@@ -1,5 +1,5 @@
 ---
-title: 'Application Packaging'
+title: '어플리케이션 패키징'
 description: 'To distribute your app with Electron, you need to package and rebrand it. To do this, you can either use specialized tooling or manual approaches.'
 slug: application-distribution
 hide_title: false
@@ -15,14 +15,14 @@ We recommend using [Electron Forge](./forge-overview.md). You can check out
 its [documentation](https://www.electronforge.io) directly, or refer to the [Packaging and Distribution](./tutorial-5-packaging.md)
 part of the Electron tutorial.
 
-## Manual packaging
+## 수동 패키징
 
 If you prefer the manual approach, there are 2 ways to distribute your application:
 
 - With prebuilt binaries
 - With an app source code archive
 
-### With prebuilt binaries
+### 빌드된 바이너리 
 
 To distribute your app manually, you need to download Electron's [prebuilt
 binaries](https://github.com/electron/electron/releases). Next, the folder
@@ -109,7 +109,7 @@ MyApp.app/Contents
             └── MyApp Helper
 ```
 
-:::note
+:::노트
 
 it is also possible to rebrand Electron by changing the product name and
 building it from source. To do this you need to set the build argument
