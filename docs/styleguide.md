@@ -2,7 +2,7 @@
 
 These are the guidelines for writing Electron documentation.
 
-## Headings
+## 제목
 
 * Each page must have a single `#`-level title at the top.
 * Chapters in the same page must have `##`-level headings.
@@ -63,11 +63,11 @@ There are a few style guidelines that aren't covered by the linter rules:
 * Use "will" over "would" when describing outcomes.
 * Prefer "in the ___ process" over "on".
 
-## API references
+## API 참조
 
 The following rules only apply to the documentation of APIs.
 
-### Title and description
+### 제목과 설명
 
 Each module's API doc must use the actual object name returned by `require('electron')`
 as its title (such as `BrowserWindow`, `autoUpdater`, and `session`).
