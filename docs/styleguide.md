@@ -1,4 +1,4 @@
-# Electron 스타일 가이드 
+# Electron 문서화 스타일 가이드 
 
 These are the guidelines for writing Electron documentation.
 
