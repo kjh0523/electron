@@ -1,4 +1,4 @@
-# Electron Documentation Style Guide
+# Electron 스타일 가이드 
 
 These are the guidelines for writing Electron documentation.
 
@@ -237,7 +237,7 @@ belongs to a module or a class.
 
 The arguments of an event follow the same rules as methods.
 
-### Properties
+### 속성
 
 The properties chapter must be in following form:
 
@@ -250,7 +250,7 @@ The properties chapter must be in following form:
 The heading can be `###` or `####`-levels depending on whether the property
 belongs to a module or a class.
 
-## Documentation translations
+## 문서화 번역
 
 See [electron/i18n](https://github.com/electron/i18n#readme)
 
