@@ -5,7 +5,7 @@ slug: /latest/
 hide_title: false
 ---
 
-# What is Electron?
+# Electron은 무엇인가?
 
 Electron is a framework for building desktop applications using JavaScript,
 HTML, and CSS. By embedding [Chromium][chromium] and [Node.js][node] into its
@@ -13,14 +13,14 @@ binary, Electron allows you to maintain one JavaScript codebase and create
 cross-platform apps that work on Windows, macOS, and Linux — no native development
 experience required.
 
-## Getting started
+## 시작하기
 
 We recommend you to start with the [tutorial][], which guides you through the
 process of developing an Electron app and distributing it to users.
 The [examples][] and [API documentation][] are also good places to browse around
 and discover new things.
 
-## Running examples with Electron Fiddle
+## Electron Fiddle과 함께 예제 실행하기
 
 [Electron Fiddle][fiddle] is a sandbox app written with Electron and supported by
 Electron's maintainers. We highly recommend installing it as a learning tool to
@@ -35,7 +35,7 @@ no copy-pasting required.
 ```fiddle docs/fiddles/quick-start
 ```
 
-## What is in the docs?
+## 문서에 무엇이 있는가?
 
 All the official documentation is available from the sidebar. These
 are the different categories and what you can expect on each one:
@@ -54,7 +54,7 @@ are the different categories and what you can expect on each one:
 - **Contributing**: Compiling Electron and making contributions can be daunting.
   We try to make it easier in this section.
 
-## Getting help
+## 도움말 얻기
 
 Are you getting stuck anywhere? Here are a few links to places to look:
 
