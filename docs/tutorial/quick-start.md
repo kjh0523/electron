@@ -483,7 +483,7 @@ Forge's scaffolding:
    > my-electron-app@1.0.0 make /my-electron-app
    > electron-forge make
 
-   ✔ Checking your system
+   ✔ 당신의 시스템을 체크 하십시오
    ✔ Resolving Forge Config
    We need to package your application before we can make it
    ✔ Preparing to Package Application for arch: x64
