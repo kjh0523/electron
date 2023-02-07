@@ -4,7 +4,7 @@
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/4lggi9dpjc1qob7k/branch/main?svg=true)](https://ci.appveyor.com/project/electron-bot/electron-ljo26/branch/main)
 [![Electron Discord Invite](https://img.shields.io/discord/745037351163527189?color=%237289DA&label=chat&logo=discord&logoColor=white)](https://discord.gg/electronjs)
 
-:memo: Available Translations: 🇨🇳 🇧🇷 🇪🇸 🇯🇵 🇷🇺 🇫🇷 🇺🇸 🇩🇪.
+:memo: 가능한 번역물들: 🇨🇳 🇧🇷 🇪🇸 🇯🇵 🇷🇺 🇫🇷 🇺🇸 🇩🇪.
 View these docs in other languages on our [Crowdin](https://crowdin.com/project/electron) project.
 
 The Electron framework lets you write cross-platform desktop applications
@@ -65,10 +65,10 @@ npm start
 
 ## Electron을 배우기 위한 자원
 
-* [electronjs.org/docs](https://electronjs.org/docs) - All of Electron's documentation
+* [electronjs.org/docs](https://electronjs.org/docs) - 모든 Electron' 문서화
 * [electron/fiddle](https://github.com/electron/fiddle) - A tool to build, run, and package small Electron experiments
-* [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - A very basic starter Electron app
-* [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - Sample starter apps created by the community
+* [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - 매우 기본적인 시작 앱
+* [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - 커뮤니티에서 만든 샘플 시작 앱들
 
 ## 프로그램방식 사용
 
