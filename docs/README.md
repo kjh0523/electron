@@ -14,19 +14,19 @@ that matches your version.
 There are questions that are asked quite often. Check this out before creating
 an issue:
 
-* [Electron FAQ](faq.md)
+* [Electron 자주묻는 질문 답변들](faq.md)
 
-## Guides and Tutorials
+## 가이드와 투토리얼
 
 ### 시작하기
 
-* [Introduction](tutorial/introduction.md)
-* [Quick Start](tutorial/quick-start.md)
+* [소개](tutorial/introduction.md)
+* [빠른 시작](tutorial/quick-start.md)
 * [Process Model](tutorial/process-model.md)
 
 ### 기본 배우기
 
-* Adding Features to Your App
+* 당신 앱에 기능 추가하기
   * [Notifications](tutorial/notifications.md)
   * [Recent Documents](tutorial/recent-documents.md)
   * [Application Progress](tutorial/progress-bar.md)
