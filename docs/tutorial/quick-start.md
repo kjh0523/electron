@@ -504,3 +504,5 @@ Forge's scaffolding:
    ├── ...
    └── out/my-electron-app-darwin-x64/my-electron-app.app/Contents/MacOS/my-electron-app
    ```
+
+
