@@ -1,4 +1,4 @@
-# Quick Start
+# 빠른 시작
 
 This guide will step you through the process of creating a barebones Hello World app in
 Electron, similar to [`electron/electron-quick-start`][quick-start].
@@ -6,9 +6,9 @@ Electron, similar to [`electron/electron-quick-start`][quick-start].
 By the end of this tutorial, your app will open a browser window that displays a web page
 with information about which Chromium, Node.js, and Electron versions are running.
 
-[quick-start]: https://github.com/electron/electron-quick-start
+[빠른시작]: https://github.com/kjh0523/electron-quick-start
 
-## Prerequisites
+## 전제 조건
 
 To use Electron, you need to install [Node.js][node-download]. We recommend that you
 use the latest `LTS` version available.
@@ -31,7 +31,7 @@ your code is unrelated to the version running on your system.
 
 [node-download]: https://nodejs.org/en/download/
 
-## Create your application
+## 당신의 어플리케이션 
 
 ### Scaffold the project
 
@@ -92,10 +92,10 @@ npm start
 > Note: This script tells Electron to run on your project's root folder. At this stage,
 > your app will immediately throw an error telling you that it cannot find an app to run.
 
-[advanced-installation]: ./installation.md
-[package-scripts]: https://docs.npmjs.com/cli/v7/using-npm/scripts
+[고급 설치]: ./installation.md
+[패키지 스크립트]: https://docs.npmjs.com/cli/v7/using-npm/scripts
 
-### Run the main process
+### 메인 프로세스 실행하기
 
 The entry point of any Electron application is its `main` script. This script controls the
 **main process**, which runs in a full Node.js environment and is responsible for
@@ -115,7 +115,7 @@ of your project.
 
 [package-json-main]: https://docs.npmjs.com/cli/v7/configuring-npm/package-json#main
 
-### Create a web page
+### 웹 페이지 
 
 Before we can create a window for our application, we need to create the content that
 will be loaded into it. In Electron, each window displays web contents that can be loaded
@@ -145,7 +145,7 @@ folder of your project:
 > Note: Looking at this HTML document, you can observe that the version numbers are
 > missing from the body text. We'll manually insert them later using JavaScript.
 
-### Opening your web page in a browser window
+### 브라우져에서 당신의 웹 페이지 
 
 Now that you have a web page, load it into an application window. To do so, you'll
 need two Electron modules:
@@ -453,7 +453,7 @@ To summarize all the steps we've done:
 * In order to access certain Node.js functionality in the renderer, we attached
   a preload script to our `BrowserWindow` constructor.
 
-## Package and distribute your application
+## 애플리케이션 패키징 및 
 
 The fastest way to distribute your newly created app is using
 [Electron Forge](https://www.electronforge.io).
