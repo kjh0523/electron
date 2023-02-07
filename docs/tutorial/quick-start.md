@@ -6,7 +6,7 @@ Electron, similar to [`electron/electron-quick-start`][quick-start].
 By the end of this tutorial, your app will open a browser window that displays a web page
 with information about which Chromium, Node.js, and Electron versions are running.
 
-[빠른시작]: https://github.com/kjh0523/electron-quick-start
+[빠른시작](https://github.com/kjh0523/electron-quick-start): https://github.com/kjh0523/electron-quick-start
 
 ## 전제 조건
 
