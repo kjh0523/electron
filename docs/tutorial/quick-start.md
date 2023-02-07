@@ -10,14 +10,12 @@ with information about which Chromium, Node.js, and Electron versions are runnin
 
 ## 전제 조건
 
-To use Electron, you need to install [Node.js][node-download]. We recommend that you
-use the latest `LTS` version available.
+Electron을 이용하기 위해서는, [Node.js][node-download]를 설치 하셔야 합니다. 우리는 장기지원(LTS) 가능한 버전을 설치 하기를 권장 드립니다. 
 
-> Please install Node.js using pre-built installers for your platform.
+> 당신의 플랫폼에 만든 미리 컴파일 된 Node.js를 설치하십시오. 
 > You may encounter incompatibility issues with different development tools otherwise.
 
-To check that Node.js was installed correctly, type the following commands in your
-terminal client:
+Node.js가 제대로 설치 되었는지 확인 하십시오, 당신의 터미널 클라이언트에 아래와 같이 쳐 보십시오.:
 
 ```sh
 node -v
