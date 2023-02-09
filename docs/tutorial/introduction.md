@@ -14,11 +14,8 @@ cross-platform apps that work on Windows, macOS, and Linux — no native develop
 experience required.
 
 ## 시작하기
-
-We recommend you to start with the [tutorial][], which guides you through the
-process of developing an Electron app and distributing it to users.
-The [examples][] and [API documentation][] are also good places to browse around
-and discover new things.
+우리는 Electron 앱을 만들고 사용자에게 배포하는 것을 설명하는 [tutorial][]과 함께 시작하기를 권합니다. 
+[examples][]와 [API documentation][]도 새로운 것을 발견하기 위한 좋은 도구 입니다.
 
 ## Electron Fiddle과 함께 예제 실행하기
 
@@ -58,8 +55,7 @@ are the different categories and what you can expect on each one:
 
 Are you getting stuck anywhere? Here are a few links to places to look:
 
-- If you need help with developing your app, our [community Discord server][discord]
-  is a great place to get advice from other Electron app developers.
+- 만약 당신이 앱을 개발하는데 도움을 필요로한다면, 우리 [community Discord server][discord]는 다른 앱 개발자들로부터 조언을 얻을 수 있는 좋은 곳입니다. 
 - If you suspect you're running into a bug with the `electron` package, please check
   the [GitHub issue tracker][issue-tracker] to see if any existing issues match your
   problem. If not, feel free to fill out our bug report template and submit a new issue.
