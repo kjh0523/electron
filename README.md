@@ -12,8 +12,8 @@ using JavaScript, HTML and CSS. It is based on [Node.js](https://nodejs.org/) an
 [Chromium](https://www.chromium.org) and is used by the [Atom
 editor](https://github.com/atom/atom) and many other [apps](https://electronjs.org/apps).
 
-Follow [@electronjs](https://twitter.com/electronjs) on Twitter for important
-announcements.
+중요 공지를 확인하려면 [@electronjs](https://twitter.com/electronjs)을 Twitter에서 팔로우 하십시오.
+
 
 This project adheres to the Contributor Covenant
 [code of conduct](https://github.com/electron/electron/tree/main/CODE_OF_CONDUCT.md).
@@ -36,8 +36,7 @@ For more installation options and troubleshooting tips, see
 
 ## 지원하는 플랫폼
 
-Each Electron release provides binaries for macOS, Windows, and Linux.
-
+각 Electron 배포는 macOS, 윈도우, 리누스용 바이너리를 제공합니다.
 * macOS (High Sierra and up): Electron provides 64-bit Intel and ARM binaries for macOS. Apple Silicon support was added in Electron 11.
 * Windows (Windows 10 and up): Electron provides `ia32` (`x86`), `x64` (`amd64`), and `arm64` binaries for Windows. Windows on ARM support was added in Electron 5.0.8. Support for Windows 7, 8 and 8.1 was [removed in Electron 23, in line with Chromium's Windows deprecation policy](https://www.electronjs.org/blog/windows-7-to-8-1-deprecation-notice).
 * Linux: The prebuilt binaries of Electron are built on Ubuntu 20.04. They have also been verified to work on:
